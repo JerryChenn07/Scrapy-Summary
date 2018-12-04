@@ -8,7 +8,8 @@
 import scrapy
 
 
-class DuplicatesfilterpipelineexampleItem(scrapy.Item):
+class DuplicatesFilterPipelineExampleItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    t1 = scrapy.Field()
+    t2 = scrapy.Field()
+    page = scrapy.Field()
