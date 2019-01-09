@@ -1,2 +1,1 @@
-# DuplicatesFilterPipelineExample
-duplicates filter pipeline for scrapy
+# scrapy 自用的一些模板
