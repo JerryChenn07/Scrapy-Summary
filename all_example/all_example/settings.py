@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 BOT_NAME = 'all_example'
 
 SPIDER_MODULES = ['all_example.spiders']
@@ -21,8 +19,7 @@ COOKIES_ENABLED = False
 
 DOWNLOADER_MIDDLEWARES = {
     '{}.middlewares.RandomUserAgentMiddleware'.format(BOT_NAME): 100,
-    # '{}.middlewares.RandomProxyMiddleware'.format(BOT_NAME): 101,
-    '{}.middlewares.MaYiProxyMiddleware'.format(BOT_NAME): 101,
+    '{}.middlewares.RandomProxyMiddleware'.format(BOT_NAME): 101,
 }
 
 ITEM_PIPELINES = {
