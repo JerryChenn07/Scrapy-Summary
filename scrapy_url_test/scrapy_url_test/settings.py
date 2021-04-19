@@ -21,6 +21,7 @@ ROBOTSTXT_OBEY = False
 COOKIES_ENABLED = True
 
 DOWNLOADER_MIDDLEWARES = {
+    '{}.middlewares.ParseMiddleware'.format(BOT_NAME): 1,
     # '{}.middlewares.RandomUserAgentMiddleware'.format(BOT_NAME): 100,
 }
 

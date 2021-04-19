@@ -12,3 +12,10 @@ class RandomUserAgentMiddleware():
     def process_request(self, request, spider):
         ua = random.choice(self.user_agent)
         request.headers["User-Agent"] = ua
+
+class ParseMiddleware():
+    def process_response(self, request, response, spider):
+        if response.status ==200:
+            response.status = 222
+        return response
+
