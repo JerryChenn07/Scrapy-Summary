@@ -4,3 +4,5 @@ SPIDER_MODULES = ['scrapy_transmit_param_test.spiders']
 NEWSPIDER_MODULE = 'scrapy_transmit_param_test.spiders'
 
 ROBOTSTXT_OBEY = False
+
+FOR_BEGIN_NUM = 666

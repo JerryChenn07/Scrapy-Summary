@@ -16,4 +16,4 @@ class T1Spider(scrapy.Spider):
             yield scrapy.Request(url=i, dont_filter=True)
 
     def parse(self, response):
-        self.logger.info(f'{response.url}--->成功了')
+        self.logger.info(f'{response.url} --->成功了')
